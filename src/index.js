@@ -89,6 +89,7 @@ const placeOrder = async (reservationToken, temporaryId) => {
                         "type": "pix",
                         "saveNonSensibleData": false,
                         "purchaser": {
+                            // TODO: Get account cpf
                             "document": "",
                             "documentType": "CPF"
                         }
@@ -109,6 +110,7 @@ const placeOrder = async (reservationToken, temporaryId) => {
                             "firstName": firstName,
                             "lastName": lastName,
                             "email": email,
+                            // TODO: get and answer the questions on the form
                             "customFormFields": []
                         }
                     ],
